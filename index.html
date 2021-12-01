@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Mipove.ge</title>
+</head>
+<body style="margin-bottom: 50px;">
+    <div class="main">
+        <header id="head">
+            <div id="menuBar">
+                <svg id="close" width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-x-lg">
+                    <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                  </svg>
+                <nav class="Nav"> 
+                    <ul>
+                        <li><a href="index.html">მთავარი</a></li>
+                        <li><a href="categories.html">კატეგორიები</a></li>
+                        <li><a href="#about">ჩვენ შესახებ</a></li>
+                        <li><a href="#form">კონტაქტი</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bar">
+                <svg id='menu' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+                <g id="XMLID_240_">
+                <path id="XMLID_241_" d="M15,30h120c8.284,0,15-6.716,15-15s-6.716-15-15-15H15C6.716,0,0,6.716,0,15S6.716,30,15,30z"/>
+                <path id="XMLID_242_" d="M135,60H15C6.716,60,0,66.716,0,75s6.716,15,15,15h120c8.284,0,15-6.716,15-15S143.284,60,135,60z"/>
+                <path id="XMLID_243_" d="M135,120H15c-8.284,0-15,6.716-15,15s6.716,15,15,15h120c8.284,0,15-6.716,15-15S143.284,120,135,120z"/>
+                </svg>
+                <div class="logo">
+                    <h1>
+                        <a href="index.html">
+                            <img src="images/logo2.png" alt="logo">
+                        </a>
+                    </h1>
+                </div>
+                <nav class="deskMenu">
+                    <ul>
+                        <li><a href="index.html">მთავარი</a></li>
+                        <li><a href="categories.html">კატეგორიები</a></li>
+                        <li><a href="#about">ჩვენ შესახებ</a></li>
+                        <li><a href="#form">კონტაქტი</a></li>
+                    </ul>
+                </nav>
+                <div id="authorisation">
+                    <svg width="35px" height="35px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M0.877014 7.49988C0.877014 3.84219 3.84216 0.877045 7.49985 0.877045C11.1575 0.877045 14.1227 3.84219 14.1227 7.49988C14.1227 11.1575 11.1575 14.1227 7.49985 14.1227C3.84216 14.1227 0.877014 11.1575 0.877014 7.49988ZM7.49985 1.82704C4.36683 1.82704 1.82701 4.36686 1.82701 7.49988C1.82701 8.97196 2.38774 10.3131 3.30727 11.3213C4.19074 9.94119 5.73818 9.02499 7.50023 9.02499C9.26206 9.02499 10.8093 9.94097 11.6929 11.3208C12.6121 10.3127 13.1727 8.97172 13.1727 7.49988C13.1727 4.36686 10.6328 1.82704 7.49985 1.82704ZM10.9818 11.9787C10.2839 10.7795 8.9857 9.97499 7.50023 9.97499C6.01458 9.97499 4.71624 10.7797 4.01845 11.9791C4.97952 12.7272 6.18765 13.1727 7.49985 13.1727C8.81227 13.1727 10.0206 12.727 10.9818 11.9787ZM5.14999 6.50487C5.14999 5.207 6.20212 4.15487 7.49999 4.15487C8.79786 4.15487 9.84999 5.207 9.84999 6.50487C9.84999 7.80274 8.79786 8.85487 7.49999 8.85487C6.20212 8.85487 5.14999 7.80274 5.14999 6.50487ZM7.49999 5.10487C6.72679 5.10487 6.09999 5.73167 6.09999 6.50487C6.09999 7.27807 6.72679 7.90487 7.49999 7.90487C8.27319 7.90487 8.89999 7.27807 8.89999 6.50487C8.89999 5.73167 8.27319 5.10487 7.49999 5.10487Z"
+                        />
+                      </svg> 
+                      <span id="enter">შესვლა</span>
+                      <div id="dropDown">
+                          <form id="hideForm" action="authorisation.php" method="post">
+                              <input type="email" name="email" placeholder="email" required>
+                              <input type="password" name="password" placeholder="password" required>
+                              <input class="submit" type="submit" name="submit" value="შესვლა">
+                          </form>
+                          <a href="#">რეგისტრაცია</a>
+                          <a href="#">დაგავიწყდა პაროლი?</a>
+                      </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="collage">
+                    <img src="images/WIX.jpg" alt="collage">
+                </div>
+                <h2 class="h2">VIP</h2>
+                <div class="boxes">
+                    <div class="box">
+                        <a href="#">
+                            <div class="picture">
+                                <img src="images/204333794_1646410228888423_257535542663500972_n.jpg" alt="">
+                                <div class="hovers">
+                                    <div class="names"> 
+                                        <h4>სახელი გვარი</h4>
+                                        <P>პროფესია</P>
+                                    </div>
+                                    <div class="adress">
+                                        <p>
+                                            <span>ტელეფონი</span> 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                        </a>     
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="picture"><img src="images/204333794_1646410228888423_257535542663500972_n.jpg" alt="">
+                                <div class="hovers">
+                                    <div class="names"> 
+                                        <h4>სახელი გვარი</h4>
+                                        <P>პროფესია</P>
+                                    </div>
+                                    <div class="adress">
+                                        <p>ტელეფონი გვერდები</p>
+                                    </div>
+                                </div></div>
+                          
+                        </a>     
+                    </div>
+                    <div id="3rd" class="box">
+                        <a href="#">
+                            <div class="picture"><img src="images/204333794_1646410228888423_257535542663500972_n.jpg" alt="">
+                                <div class="hovers">
+                                    <div class="names"> 
+                                        <h4>სახელი გვარი</h4>
+                                        <P>პროფესია</P>
+                                    </div>
+                                    <div class="adress">
+                                        <p>ტელეფონი გვერდები</p>
+                                    </div>
+                                </div></div>
+                          
+                        </a>     
+                    </div>
+                    <div id="4th" class="box">
+                        <a href="#">
+                            <div class="picture"><img src="images/204333794_1646410228888423_257535542663500972_n.jpg" alt="">
+                                <div class="hovers">
+                                    <div class="names"> 
+                                        <h4>სახელი გვარი</h4>
+                                        <P>პროფესია</P>
+                                    </div>
+                                    <div class="adress">
+                                        <p>ტელეფონი გვერდები</p>
+                                    </div>
+                                </div></div>
+                          
+                        </a>     
+                    </div>
+                    <div class="box marg">
+                        <a href="#">
+                            <div class="picture"><img src="images/204333794_1646410228888423_257535542663500972_n.jpg" alt="">
+                                <div class="hovers">
+                                    <div class="names"> 
+                                        <h4>სახელი გვარი</h4>
+                                        <P>პროფესია</P>
+                                    </div>
+                                    <div class="adress">
+                                        <p>ტელეფონი გვერდები</p>
+                                    </div>
+                                </div></div>
+                          
+                        </a>     
+                    </div>
+                    <div class="box marg">
+                        <a href="#">
+                            <div class="picture"><img src="images/204333794_1646410228888423_257535542663500972_n.jpg" alt="">
+                                <div class="hovers">
+                                    <div class="names"> 
+                                        <h4>სახელი გვარი</h4>
+                                        <P>პროფესია</P>
+                                    </div>
+                                    <div class="adress">
+                                        <p>ტელეფონი გვერდები</p>
+                                    </div>
+                                </div></div>
+                          
+                        </a>     
+                    </div>
+                    <div class="box marg">
+                        <a href="#">
+                            <div class="picture"><img src="images/204333794_1646410228888423_257535542663500972_n.jpg" alt="">
+                                <div class="hovers">
+                                    <div class="names"> 
+                                        <h4>სახელი გვარი</h4>
+                                        <P>პროფესია</P>
+                                    </div>
+                                    <div class="adress">
+                                        <p>ტელეფონი გვერდები</p>
+                                    </div>
+                                </div></div>
+                          
+                        </a>     
+                    </div>
+                    <div class="box marg">
+                        <a href="#">
+                            <div class="picture"><img src="images/204333794_1646410228888423_257535542663500972_n.jpg" alt="">
+                                <div class="hovers">
+                                    <div class="names"> 
+                                        <h4>სახელი გვარი</h4>
+                                        <P>პროფესია</P>
+                                    </div>
+                                    <div class="adress">
+                                        <p>ტელეფონი გვერდები</p>
+                                    </div>
+                                </div></div>
+                          
+                        </a>     
+                    </div>
+                </div>
+                <h2 class="h2 resp2">უახლესი განცხადებები</h2>
+                <div class="advert">
+                    <div id="boxes" class="boxes"></div>
+                    <div class="more">
+                        <a href="gancxadebebi.html" target="_blank">
+                            <span>იხილეთ მეტი</span>
+                            <svg class="arrow" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 434.002 434.002" style="enable-background:new 0 0 434.002 434.002;"
+	 xml:space="preserve">
+<g>
+	<g>
+		<path d="M95.457,434.002l-33.105-45.076l234.094-171.928L62.352,45.077L95.456,0L360.24,194.459
+			c7.174,5.269,11.41,13.638,11.41,22.539c0,8.9-4.236,17.27-11.41,22.538L95.457,434.002z"/>
+	</g>
+</g>
+                        </svg>
+                    </a>
+                    </div>
+                </div>
+                <div class="about" id="about">
+                    <div class="height">
+                        <div class="image">
+                        <img src="images/pexels-fauxels-3184418_edited.jpg" alt="">
+                        </div>
+                        <div class="us">
+                        <h2 class="resp2">ჩვენ შესახებ</h2>
+                        <p> <span class="bold"> MIPOVE.GE </span> 2021 წლიდან გთავაზობთ მარტივ გზას, დაუკავშირდეთ თქვენთვის სასურველი პროფესიის ადამიანებს უმოკლეს დროში. <span class="bold">MIPOVE.GE</span>  ასევე გაძლევთ განვითარებისა და წინსვლის საშუალებას. თუ თქვენი საქმიანობა ემთხვევა ჩვენს საიტზე არსებულ რომელიმე პროფესიას და გსურთ, თავადაც მოხვდეთ ამ სიაში, შეავსეთ განცხადება <a href="#form"> აქ</a> და გამოგვიგზავნეთ.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="container footer">
+            <a href="#head">
+                <svg id="up" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 30.021 30.021" style="enable-background:new 0 0 30.021 30.021;"
+                xml:space="preserve">
+                <path d="M29.069,22.276c-0.791,0.932-1.917,1.409-3.052,1.409c-0.913,0-1.834-0.312-2.587-0.949l-8.42-7.152l-8.42,7.151
+                c-1.683,1.43-4.208,1.225-5.639-0.459c-1.43-1.686-1.224-4.208,0.46-5.64l11.01-9.351c1.493-1.269,3.686-1.269,5.178,0
+                l11.011,9.351C30.294,18.068,30.499,20.591,29.069,22.276z"/>
+                </svg>
+            </a>
+            <div class="foot">
+                <div class="info">
+                    <h2>კონტაქტი</h2>
+                    <div class="call">
+                        <span class="mail">
+                            <svg class="letter" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 297 297" style="enable-background:new 0 0 297 297;" xml:space="preserve">
+                            <path d="M287,69.22H10c-5.523,0-10,4.478-10,10V217.78c0,5.522,4.477,10,10,10h277c5.522,0,10-4.478,10-10V79.22
+                            C297,73.697,292.522,69.22,287,69.22z M148.5,137.318L52.344,89.22h192.313L148.5,137.318z M20,95.403l64.617,32.322L20,192.369
+                            V95.403z M103.469,137.156l40.558,20.287c1.408,0.704,2.94,1.057,4.474,1.057s3.065-0.352,4.474-1.057l40.557-20.287l70.597,70.624
+                            H32.872L103.469,137.156z M212.382,127.727L277,95.403v96.967L212.382,127.727z"/>
+                            </svg>
+                            <span>info@mipove.ge</span>
+                        </span>
+                        <span class="mail">
+                            <svg class="letter" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.256 12.253c-.096-.667-.611-1.187-1.274-1.342-2.577-.604-3.223-2.088-3.332-3.734C12.193 7.092 11.38 7 10 7s-2.193.092-2.65.177c-.109 1.646-.755 3.13-3.332 3.734-.663.156-1.178.675-1.274 1.342l-.497 3.442C2.072 16.907 2.962 18 4.2 18h11.6c1.237 0 2.128-1.093 1.953-2.305l-.497-3.442zM10 15.492c-1.395 0-2.526-1.12-2.526-2.5s1.131-2.5 2.526-2.5 2.526 1.12 2.526 2.5-1.132 2.5-2.526 2.5zM19.95 6c-.024-1.5-3.842-3.999-9.95-4C3.891 2.001.073 4.5.05 6s.021 3.452 2.535 3.127c2.941-.381 2.76-1.408 2.76-2.876C5.345 5.227 7.737 4.98 10 4.98s4.654.247 4.655 1.271c0 1.468-.181 2.495 2.76 2.876C19.928 9.452 19.973 7.5 19.95 6z"/></svg>
+                            <span>598 160 691</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact">
+                        <h2 class="resp2">დაგვიკავშირდით</h2>
+                        <form id="form" class="form" action="form.php">
+                            <div class="twoParts">
+                                <div class="firstPart">
+                                    <label for="firstName" >სახელი *</label>
+                                    <input type="text" name="name" id="firstName" required>
+                                    <label for="lastName">ელ ფოსტა</label>
+                                    <input type="text" name="surname" id="lastName">
+                                </div>
+                                <div class="secondPart">
+                                    <label for="email">გვარი *</label>
+                                    <input type="mail" name="mail" id="email" required>
+                                    <label for="phone" >საკონტაქტო ტელ *</label>
+                                    <input type="tel" name="phone" id="phone" required>
+                                </div>
+                            </div>
+                            <label for="additional">მოგვიყევით თქვენი საქმიანობის შესახებ</label>
+                            <textarea type="text"></textarea>
+                            <input id="sub" type="submit" value='გაგზავნა'>
+                        </form>
+                </div>
+            </div>
+            <div class="copyRight">
+                <svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                    d="M13.392 10.4362L14.8106 9.0176C14.1031 8.38476 13.169 8 12.145 8C9.93588 8 8.14502 9.79086 8.14502 12C8.14502 14.2091 9.93588 16 12.145 16C13.2563 16 14.2617 15.5468 14.9866 14.8152L13.674 13.5026L13.4646 13.503C13.1124 13.8124 12.6506 14 12.145 14C11.0405 14 10.145 13.1046 10.145 12C10.145 10.8954 11.0405 10 12.145 10C12.6166 10 13.0501 10.1632 13.392 10.4362Z"
+                    fill="currentColor"
+                    />
+                    <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3ZM12 5C15.866 5 19 8.13401 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 8.13401 8.13401 5 12 5Z"
+                    fill="currentColor"
+                    />
+                </svg>
+                <span> 2021 mipove.ge</span>
+            </div>
+        </footer>
+    </div>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
+
+
+

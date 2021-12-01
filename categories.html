@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Mipove.ge</title>
+</head>
+<body>
+    <div class="main">
+        <header id="head">
+            <div id="menuBar">
+                <svg id="close" width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-x-lg">
+                    <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                  </svg>
+                <nav class="Nav"> 
+                    <ul>
+                        <li><a href="index.html">მთავარი</a></li>
+                        <li><a href="categories.html">კატეგორიები</a></li>
+                        <li><a href="#about">ჩვენ შესახებ</a></li>
+                        <li><a href="#form">კონტაქტი</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bar">
+                <svg id='menu' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+                <g id="XMLID_240_">
+                <path id="XMLID_241_" d="M15,30h120c8.284,0,15-6.716,15-15s-6.716-15-15-15H15C6.716,0,0,6.716,0,15S6.716,30,15,30z"/>
+                <path id="XMLID_242_" d="M135,60H15C6.716,60,0,66.716,0,75s6.716,15,15,15h120c8.284,0,15-6.716,15-15S143.284,60,135,60z"/>
+                <path id="XMLID_243_" d="M135,120H15c-8.284,0-15,6.716-15,15s6.716,15,15,15h120c8.284,0,15-6.716,15-15S143.284,120,135,120z"/>
+                </svg>
+                <div class="logo">
+                    <h1>
+                        <a href="index.html">
+                            <img src="images/logo2.png" alt="logo">
+                        </a>
+                    </h1>
+                </div>
+                <nav class="deskMenu">
+                    <ul>
+                        <li><a href="index.html">მთავარი</a></li>
+                        <li><a href="categories.html">კატეგორიები</a></li>
+                        <li><a href="#about">ჩვენ შესახებ</a></li>
+                        <li><a href="#form">კონტაქტი</a></li>
+                    </ul>
+                </nav>
+                <div id="authorisation">
+                    <svg width="35px" height="35px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M0.877014 7.49988C0.877014 3.84219 3.84216 0.877045 7.49985 0.877045C11.1575 0.877045 14.1227 3.84219 14.1227 7.49988C14.1227 11.1575 11.1575 14.1227 7.49985 14.1227C3.84216 14.1227 0.877014 11.1575 0.877014 7.49988ZM7.49985 1.82704C4.36683 1.82704 1.82701 4.36686 1.82701 7.49988C1.82701 8.97196 2.38774 10.3131 3.30727 11.3213C4.19074 9.94119 5.73818 9.02499 7.50023 9.02499C9.26206 9.02499 10.8093 9.94097 11.6929 11.3208C12.6121 10.3127 13.1727 8.97172 13.1727 7.49988C13.1727 4.36686 10.6328 1.82704 7.49985 1.82704ZM10.9818 11.9787C10.2839 10.7795 8.9857 9.97499 7.50023 9.97499C6.01458 9.97499 4.71624 10.7797 4.01845 11.9791C4.97952 12.7272 6.18765 13.1727 7.49985 13.1727C8.81227 13.1727 10.0206 12.727 10.9818 11.9787ZM5.14999 6.50487C5.14999 5.207 6.20212 4.15487 7.49999 4.15487C8.79786 4.15487 9.84999 5.207 9.84999 6.50487C9.84999 7.80274 8.79786 8.85487 7.49999 8.85487C6.20212 8.85487 5.14999 7.80274 5.14999 6.50487ZM7.49999 5.10487C6.72679 5.10487 6.09999 5.73167 6.09999 6.50487C6.09999 7.27807 6.72679 7.90487 7.49999 7.90487C8.27319 7.90487 8.89999 7.27807 8.89999 6.50487C8.89999 5.73167 8.27319 5.10487 7.49999 5.10487Z"
+                        />
+                      </svg> 
+                      <span id="enter">შესვლა</span>
+                      <div id="dropDown">
+                          <form id="hideForm" action="authorisation.php" method="post">
+                              <input type="email" name="email" placeholder="email" required>
+                              <input type="password" name="password" placeholder="password" required>
+                              <input class="submit" type="submit" name="submit" value="შესვლა">
+                          </form>
+                          <a href="#">რეგისტრაცია</a>
+                          <a href="#">დაგავიწყდა პაროლი?</a>
+                      </div>
+                </div>
+            </div>
+        </header>
+        <main>
+       <div class="container categ">
+            <div class="category">
+                <a href="#">ავეჯის დამზადება / შეკეთება</a>
+            </div>
+            <div class="category">
+                <a href="#">ანტიკური ნივთების დამზადება</a>
+            </div>
+            <div class="category">
+                <a href="#">ბიჟუტერიის შეკეთება</a>
+            </div>
+            <div class="category">
+                <a href="#">გასაღების დამზადება</a>
+            </div>
+            <div class="category">
+                <a href="#">საათების  შეკეთება</a>
+            </div>
+            <div class="category">
+                <a href="#">სათვალის შეკეთება</a>
+            </div>
+            <div class="category">
+                <a href="#">ოქრომჭედელი</a>
+            </div>
+            <div class="category">
+                <a href="#">ტანსაცმლის კერვა / გადაკეთება</a>
+            </div>
+            <div class="category">
+                <a href="#">ტყავის / ქსოვილის ღებვა, წმენდა</a>
+            </div>
+            <div class="category">
+                <a href="#">ტყავის ნივთების დამზადება</a>
+            </div>
+            <div class="category">
+                <a href="#">ფეხსაცმლის კერვა / შეკეთება</a>
+            </div>
+            <div class="category">
+                <a href="#">ქვის დამუშავება</a>
+            </div>
+            <div class="category">
+                <a href="#">აქრომირება / მონიკელება</a>
+            </div>
+            <div class="category">
+                <a href="#">ჩანთების დამზადება / შეკეთება</a>
+            </div>
+            <div class="category">
+                <a href="#">ჩემოდნების შეკეთება</a>
+            </div>
+            
+       </div>
+    
+        </main>
+    </div>  
+   
+
+    <script src="js/main.js"></script>
+</body>
+</html>
