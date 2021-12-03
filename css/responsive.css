@@ -21,8 +21,10 @@
   .documents {
       width: 80%;
   }
+  .read  {
+      width: 70%;
+  }
 }
-
 @media screen and (max-width: 930px) {
     .container {
         width: 90%;
@@ -106,6 +108,9 @@
     .documents {
         justify-content: center;
     }
+    .read  {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 672px) {
@@ -167,11 +172,23 @@
         width: 350px;
         margin: 10px auto;
     }
+    .commentaries {
+        width: 400px;
+    }
+    .comm {
+        width: 200px;
+    }
+    .media {
+        font-size: 25px;
+    }
 }
 @media screen and (max-width: 768px) {
     .documents {
         width: 90%;
         margin: 0 auto;
+    }
+    .container .collage {
+        height: 400px;
     }
 }
 @media screen and (max-width: 432px) {
@@ -185,5 +202,39 @@
         width: 25px;
         height: 25px;
         right: 10px;
+    }
+    .container .collage {
+        height: 300px;
+    }
+    .commentaries {
+        width: 300px;
+    }
+    .comm {
+        width: 150px;
+    }
+    .submit {
+        width: 60px;
+        font-size: 8px;
+    }
+    .comm::placeholder {
+        font-size: 10px;
+    }
+    #menu {
+        width: 30px;
+        height: 30px;
+    }
+    h1 {
+        width: 220px;
+        height: 100px;
+    }
+    #authorisation {
+        width: 100px;
+    }
+    #authorisation svg {
+        width: 25px;
+        height: 25px;
+    }
+    #authorisation span {
+        font-size: 12px;
     }
 }
